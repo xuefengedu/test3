@@ -640,7 +640,6 @@ namespace colorbit {
         //% weight=20
         //% parts="colorbit"
         drawColorBit(x: number, y: number, rgb: number) {
-            if (this._matrixWidth <= 0) return; // not a matrix, ignore
             x = x >> 0;
             y = y >> 0;
             rgb = rgb >> 0;
